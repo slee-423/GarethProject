@@ -1,0 +1,350 @@
+﻿/******************************************************************************************
+    CSS Added By Linden Foods Ltd.
+*******************************************************************************************/
+
+/******************************************************************************************
+    CSS styling theme for the menu bar along the top of the website
+*******************************************************************************************/
+
+.navbar {
+    background-color: #1a4080;
+    border-bottom: solid;
+    border-bottom-color: red;
+}
+
+.navbar-toggler {
+    border-color: #ddd;
+}
+
+/*.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}*/
+
+.dropdown > .dropdown-menu {
+    margin-top: 0;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.navbar a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 16px !important;
+}
+
+.navbar a:hover {
+    background-color: #ffff;
+    border-radius: 5px;
+}
+
+.nav-dropdown-content {
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.nav-dropdown-content a {
+    color: #1a4080;
+    text-align: left;
+}
+
+.nav-dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/******************************************************************************************
+    HTML styling for different components
+*******************************************************************************************/
+
+input {
+    border-radius: 5px;
+    border: 1px solid #1a4080;
+}
+
+input:focus, 
+select:focus,
+textarea:focus{
+    outline: none;
+    box-shadow: 0px 0px 10px #3c91fc;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    top: 3px;
+    position: relative;
+    height: 18px;
+    width: 18px;
+    box-shadow: none;
+}
+
+input[type=checkbox]:focus,
+input[type=radio]:focus {
+    outline-width: 2px;
+    outline-style: solid;
+    outline-color: Highlight;
+}
+
+select {
+    border-radius: 5px;
+    border: 1px solid #1a4080;
+    height: 30px;
+}
+
+textarea {
+    border-radius: 5px;
+    border: 1px solid #1a4080;
+    height: 150px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+label {
+    margin-left: -15px;
+}
+
+/******************************************************************************************
+    Text related CSS styling
+*******************************************************************************************/
+
+.text-align-center {
+    text-align: center;
+}
+
+.uppercase-input {
+    text-transform: uppercase;
+}
+
+/******************************************************************************************
+    Visualisation related CSS styling
+*******************************************************************************************/
+
+.center {
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+}
+
+#image-container {
+    margin-top: 5px;
+    padding-left: 0px;
+}
+
+.main-logo {
+    margin-left: -5px;
+    margin-top: -5px;
+    padding-right: 5px;
+    max-width: 102px !important;
+}
+
+#header-container {
+    padding-left: 0px;
+    margin-top: 25px;
+}
+
+#page-header-title {
+    margin-left: 125px;
+}
+
+#section-container {
+    margin-left: 125px;
+    padding-right: 125px;
+}
+
+.bottom-border {
+    border-radius: 10px;
+    border-bottom: solid;
+    border-bottom-color: #1a4080;
+}
+
+.form-control {
+    border: 1px solid #1a4080;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 30px solid #1a4080;
+    margin: 0 auto;
+    margin-bottom: -10px;
+}
+
+.btn-hover:hover,
+.btn-hover:focus {
+    background-color: #1a4080;
+    color: white;
+    box-shadow: 0px 0px 10px #3c91fc;
+}
+
+.margin-bottom-small {
+    margin-bottom: 15px !important;
+}
+
+.position-right {
+    float: right;
+}
+
+.btn-hover,
+.btn-sm {
+    box-shadow: 0px 0px 2px black !important;
+}
+
+.form-margin-bottom {
+    margin-bottom: 10px;
+}
+
+.form-margin-top {
+    margin-top: 10px;
+}
+
+/******************************************************************************************
+    Custom CSS styling for the ng-table library
+*******************************************************************************************/
+
+.ng-table-counts > .btn {
+    border: 1px solid grey !important;
+}
+
+/******************************************************************************************
+    Custom CSS styling for the toastr library
+*******************************************************************************************/
+
+.toast {
+    opacity: 1 !important;
+}
+
+.toast-top-right {
+    margin-top: 40px !important;
+}
+
+/******************************************************************************************
+    Custom CSS styling for overriding bootstrap styling
+*******************************************************************************************/
+
+.alert-danger {
+    padding: 2px !important;
+}
+
+/******************************************************************************************
+    Custom CSS styling for the blockUI library
+*******************************************************************************************/
+
+.block-ui-message {
+    background-color: #1a4080 !important;
+}
+
+/******************************************************************************************
+    Custom CSS styling for the sweet alert library
+*******************************************************************************************/
+
+.swal-button--confirm {
+    background-color: #1a4080 !important;
+}
+
+.swal-button--confirm:hover {
+    background-color: #0056b3 !important;
+}
+
+.swal-button--cancel:hover {
+    background-color: #0056b3 !important;
+    color: white !important
+}
+
+.swal-modal {
+    vertical-align: top !important;
+}
+
+/******************************************************************************************
+    Media queries for handling website responsiveness
+*******************************************************************************************/
+
+@media screen and (max-width: 1200px) {
+
+    /* Change the layout of the ng-table when the screen is smaller */
+    #hr-review-table {
+        margin-top: 50px;
+        overflow-x: scroll;
+        padding-bottom: 50px;
+    }
+
+    #hr-review-table .min-table-header-width {
+        min-width: 200px;
+    }
+
+    #hr-review-table .pull-right {
+        position: absolute !important;
+        right: 0 !important;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    #section-container,
+    #page-header-title {
+        margin-left: 75px !important;
+        padding-right: 75px !important;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    #section-container,
+    #page-header-title {
+        margin-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    /* Change the layout of the ng-table when the screen is smaller */
+    .scrollable-area {
+        margin-top: 50px;
+        overflow-x: scroll;
+        padding-bottom: 50px;
+    }
+
+    .min-table-header-width {
+        min-width: 200px;
+    }
+
+    .pull-right {
+        position: absolute !important;
+        right: 0 !important;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-nav .nav-link {
+        border-bottom: 1px solid white;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    #page-header-title {
+        margin-left: 10px;
+        margin-top: 0px;
+        font-size: 1.7rem;
+    }
+
+    .navbar a {
+        padding: 10px 4px;
+    }
+}
+
+@media screen and (max-width: 455px) {
+
+    .center {
+        width: 100%;
+    }
+}
+

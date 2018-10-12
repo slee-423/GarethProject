@@ -1,0 +1,51 @@
+﻿/******************************************************************************************
+    CSS Added By Linden Foods Ltd.
+*******************************************************************************************/
+
+/******************************************************************************************
+    CSS styling for slide animation 
+*******************************************************************************************/
+
+.transition-page {
+    animation: slidein-from-right 500ms;
+}
+
+@-webkit-keyframes slidein-from-right {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
+@-moz-keyframes slidein-from-right {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
+@-o-keyframes slidein-from-right {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slidein-from-right {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
